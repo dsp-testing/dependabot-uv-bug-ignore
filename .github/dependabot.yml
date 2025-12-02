@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: "uv"
     directory: "/" # Location of package manifests
     schedule:
-      interval: "daily"
+      interval: "weekly"
     ignore:
       - dependency-name: "django"
         # only allow x.y.* updates from dependabot for this package
